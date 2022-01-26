@@ -103,7 +103,7 @@ nav{
 
 @media only screen and (max-width: 350px) {
     .material-icons{
-        color: rgb(17, 146, 114);
+        color: black;
         font-size: 23px;
     }
     #messageInp{

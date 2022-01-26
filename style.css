@@ -1,0 +1,140 @@
+body{
+    background-image: url(backg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.flex-div{
+    background-color: rgb(17, 146, 114);
+    padding: 4px;
+    display: flex;
+    align-items: center;
+}
+.ss{
+    align-items: center;
+    text-align: center;
+    margin: 15px;
+}
+nav{
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgb(0, 0, 0.2);
+    position: sticky;
+}
+.hog{
+    display: inline;
+}
+.rii{
+    margin-right: 25px;
+}
+.arr{
+    color: white;
+    font-size: 3vw;
+    margin: 14px;
+}
+.arr1{
+    color: white;
+    font-size: 3vw;
+}
+.dp1{
+    margin: 14px;
+   color: white;
+    font-size: 3vw;
+}
+.msg{
+    width: 70vw;
+    background-color: antiquewhite;
+    margin: auto;
+    height: inherit;
+}
+.container{
+    padding: 8px 8px;
+    height: 100vh;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+}
+.message{
+    background-color: cadetblue;
+    word-wrap: break-word;
+    width: 24%;
+    padding: 8px;
+    margin: 15px;
+}
+.left{
+    float: left;
+    clear: both;
+}
+.right{
+    float: right;
+    clear: both;
+}
+#send-container{
+    display: block;
+    width: 70vw;
+    margin: auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: thistle;
+    padding-bottom: 12px;
+    padding-top: 12px;
+}
+#messageInp{
+    width:95%;
+    height: 36px;
+    border-radius: 6px;
+    font-size: 18px; 
+    font-weight: bold;
+    margin-left: 6px;
+    border: none;
+}
+.btn{
+    height: 34px;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color:transparent;
+    border: none;
+}
+.material-icons{
+    color:rgb(17, 146, 114);
+    font-size: 35px;
+}
+
+@media only screen and (max-width: 350px) {
+    .material-icons{
+        color: rgb(17, 146, 114);
+        font-size: 23px;
+    }
+    #messageInp{
+        height: 26px;
+    }
+    #send-container{
+        padding-bottom: 6px;
+        padding-top: 6px;
+    }
+}
+@media only screen and (max-width: 600px){
+    .flex-div{
+        padding: 10px;
+    }
+    .rii{
+        margin-right: 0px;
+    }
+    .arr{
+        margin: 1px;
+        font-size: 4vw;
+    }
+    .arr1{
+        font-size: 4vw;
+    }
+    .dp1{
+        margin: 4px;
+        font-size: 4vw;
+    }
+    .message{
+        width: 35%;
+        }
+}
+
+  

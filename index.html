@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Chat-App</title>
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="msg">
+        <nav class="flex-div">
+            <div class="lef">
+                <i class="fa fa-arrow-left arr " aria-hidden="true"></i>
+                <!-- <img class="dp " src="user-3.png"> -->
+                <i class="fa fa-user-circle arr1" aria-hidden="true">
+                    <h5 class="hog">Hogwarts</h5>
+                </i>
+            </div>
+            <div class="rii">
+                <i class="fa fa-video-camera dp1" aria-hidden="true"></i>
+                <i class="fa fa-phone dp1" aria-hidden="true"></i>
+                <i class="fa fa-ellipsis-v dp1" aria-hidden="true"></i>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="message right">Harry: Hey</div>
+            <div class="message left">Hermioine: Hey</div>
+        </div>
+    </div>
+    <div class="send">
+        <form action="#" id="send-container">
+            <input type="text" name="messageInp" id="messageInp">
+            <button class="btn" type="submit"><i class="material-icons">&#xe163;</i></button>
+        </form>
+    </div>
+</body>
+
+</html>
